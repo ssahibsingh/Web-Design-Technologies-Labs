@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #F7F7F7;
+}
+
+h1 {
+    padding: 20px 0;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.container {
+    height: 450px;
+    width: 350px;
+    background-color: white;
+    margin: auto;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 0 15px 53px 14px rgb(0 0 0 / 10%);
+}
+
+#display {
+    border: .51px solid grey;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 20px;
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+}
+
+#DEL {
+    background-color: #E05046;
+    color: white;
+}
+
+#equal {
+    background-color: #46E0BC;
+    color: white;
+    font-weight: 600;
+
+}
+
+.operator {
+    background: #fc9507 !important;
+    color: white !important;
+    font-weight: 600;
+}
+
+.buttons div {
+    background-color: #F3F3F3;
+    padding: 10px;
+    font-size: 19px;
+    text-align: center;
+    margin: 5px;
+    width: 56px;
+    border-radius: 15px;
+    color: #a5a5a5;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttons div:hover {
+    transition: .3s ease-out;
+    transform: scale(1.1);
+    color: #929191;
+}

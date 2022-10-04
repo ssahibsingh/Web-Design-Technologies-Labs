@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar{
+    padding: 10px;
+    background: rgb(207, 174, 108);
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    padding: 5px;
+    background: #fff;
+}
+
+.slides{
+    width: 90%;
+    margin: auto;
+    background: rgb(245, 245, 245);
+    text-align: center;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.slides img{
+    width: 95%;
+    height: 95%;
+}
+
+.admission{
+    width: 90%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px auto;
+    background: rgb(245, 245, 245);
+    border-radius: 3px;
+}
+
+.admission a{
+    text-decoration: none;
+    color: #773021;
+}
+
+.news{
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    background: rgb(245, 245, 245);
+}
+.news h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #773021;
+    padding: 10px 0;
+}
+
+.news td {
+    border-bottom: 1px solid black;
+}
+.news td a{
+    text-decoration: none;
+    color: black
+}
+
+.news h4{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.news h4 a{
+    text-decoration: none;
+    color: #773021;
+}
+
+.vision{
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    background: rgb(245, 245, 245);
+}
+
+.vision h2{
+    padding: 15px 0;
+    color: #773021;
+}
+
+.vision p{
+    padding: 10px 5px;
+}
+
+.links{
+    width: 90%;
+    padding: 0;
+    margin: 10px auto;
+    background: rgb(245, 245, 245);
+}
+.links h4{
+    background:rgb(227, 201, 149)
+}
+
+.links ul{
+    padding: 20px;
+}
+.links ul li{
+    padding: 5px;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: black
+}
+
+.unstyled{
+    list-style: none;
+}
+
+.links h4{
+    font-size: 25px;
+    font-weight: bold;
+    color: #773021;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.contactus{
+    width: 90%;
+    padding: 0 10px;
+    margin: 10px auto;
+    background: rgb(245, 245, 245);
+    text-align: center;
+}
+
+.contactus h4{
+    font-size: 25px;
+    font-weight: bold;
+    color: #773021;
+    padding: 10px 0;
+}
+.contactus h5{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 10px;
+}
+.contactus h5 a{
+    color: #49274A;
+    text-decoration: none;
+}
+
+.contactus p{
+    padding: 10px;
+    font-size: 15px;
+    color: #49274A;
+    line-height: 25px;
+}
+.contactus p span{
+    font-weight: bold;
+}
+
+.footer{
+    padding: 10px;
+    background:rgb(227, 201, 149);
+    color: #49274A;
+    height: 10vh;
+    text-align: center;
+}

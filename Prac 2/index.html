@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form, Table and List</title>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 80%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Practical 2</h1>
+    <!-- HTML Forms -->
+    <h2>Forms</h2>
+    <form>
+        <p>Text</p>
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" value="Sahib Singh"><br>
+        <label for="institute">Institute</label><br>
+        <input type="text" id="institute" name="institute" value="NITJ"><br><br>
+        <p>Radio</p>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br>
+        <p>Checkbox</p>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <!-- HTML Table -->
+    <h2>HTML Table</h2>
+    <table>
+        <thead>
+            <th>Degree</th>
+            <th>Institute</th>
+            <th>Duration</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>B.Tech</td>
+                <td>Dr B R Ambedkar National Institute of Technology Jalandhar</td>
+                <td>2020 - Present</td>
+            </tr>
+            <tr>
+                <td>Senior Secondary</td>
+                <td>Modern Secular Public School, Dhuri</td>
+                <td>2018 - 2020</td>
+            </tr>
+            <tr>
+                <td>High School</td>
+                <td>A S Modern Senior Secondary School, Khanna</td>
+                <td>2010 - 2018</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <!-- HTML Lists -->
+    <h2>List</h2>
+    <h3>Unordered</h3>
+    <ul type="square">
+        <li>Form</li>
+        <li>Table</li>
+        <li>List</li>
+    </ul>
+    <h3>Ordered List</h3>
+    <ol type="a">
+        <li>Form</li>
+        <li>Table</li>
+        <li>List</li>
+    </ol>
+    <h3>Definition List</h3>
+    <dl>
+        <dt>Form</dt>
+        <dd>The form element represents a collection of form-associated elements, some of which can represent editable
+            values that can be submitted to a server for processing.</dd>
+        <dt>Table</dt>
+        <dd>The table element represents data with more than one dimension, in the form of a table.</dd>
+        <dt>List</dt>
+        <dd>The li element represents a list item. If its parent element is an ol, ul, or menu element, then the element
+            is an item of the parent element's list, as defined for those elements.</dd>
+    </dl>
+</body>
+
+</html>
