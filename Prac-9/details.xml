@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" standalone = "yes" ?>
+<!DOCTYPE details SYSTEM "details.dtd">
+
+<details>
+    <name id="name">Sahib Singh</name>
+    <about>Pre-Final Year IT undergrad</about>
+    <email>example@abc.com</email>
+    <rollno>20124086</rollno>
+    <institute>NITJ</institute>
+</details>

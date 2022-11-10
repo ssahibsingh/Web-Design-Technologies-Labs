@@ -1,0 +1,8 @@
+<!Element details (name, about, email, rollno, institute)>
+<!Element name (#PCDATA)>
+<!Element about (#PCDATA)>
+<!Element email (#PCDATA)>
+<!Element rollno (#PCDATA)>
+<!Element institute (#PCDATA)>
+
+<!ATTLIST name id CDATA #REQUIRED>
